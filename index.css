@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+body, html {
+    overflow-x: hidden;
+  }
+  
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.header{
+    background:url(https://funart.pro/uploads/posts/2020-04/1587647009_6-p-foni-dlya-shapki-iz-mainkraft-12.jpg);
+    background-attachment: fixed;
+    background: cover;
+    background-position:center;
+    background-repeat:no-repeat ;
+    height: 900px;
+}
+.overlay{
+    background:rgb(0 0 0 / 25%) ;
+    position: absolute;
+    min-width: 100%;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+}
+.header-content{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    color: white;
+    min-width: 100%;
+}
+.header-content h1{
+    letter-spacing: 8px;    
+}
+
+.about{
+    padding-top:4em ;
+    padding-bottom: 4em;
+}
+.about h1{
+    padding-bottom: 1em;
+}
+
+.about-h1, .cars h1, .trade_in h1, .products h1, .facts h1, .team h1{
+    padding-bottom: 1em;
+}
+.dropdown-item{
+    color: rgba(255,255,255,.5);
+}
+
+.skins, .products,.feedback, .single-play, .online-play{
+    padding-top:4em ;
+    padding-bottom: 4em;
+    background: #343a40;
+    color: white;
+}
+.skins div[class|=col]{
+    padding-left: 85px;
+}
+.skins h5{
+    padding-right: 85px;
+    padding-top:1em ;
+    padding-bottom: 1em;
+}
+.trade_in, .feedback, .facts, .team{
+    padding-top:4em ;
+    padding-bottom: 4em;
+}
+
+.prod-1, .prod-2, .prod-3{
+    padding-top: 15px;
+}
+
+.carousel-item{
+    height: 600px;
+}
+
+.team img{
+    border: 5px solid black;
+}
+
+.personDesc{
+    background: #343a40;
+    color: lightgray;
+}
+
+.personDesc span{
+    font-size: 0.8em;
+    color: lightgrey;
+
+}
+
+.feedback, .col-sm-4{
+    align-self:center ;
+}
+
+.facts li{
+    padding: 0.7em;
+}
+.list-group-item{
+    background: skyblue;
+    border-radius:45px;
+    margin: 15px;
+    border: gray 1px solid;
+}
+.list-group{
+    background: rgb(223, 223, 223);
+}
+
+.validity-1:invalid+span:after {
+    content: '✖Your name not fit.';
+    color: orange;
+    padding-left: 10px;
+    
+}
+
+.validity-2:invalid+span:after {
+    content: '✖Your email not fit.';
+    color: orange;
+    padding-left: 10px;
+    
+}
+
+.validity-3:invalid+span:after {
+    content: '✖Minimum 5 characters!';
+    color: orange;
+    padding-left: 10px;
+    
+}
+
+.validity-4:invalid+span:after {
+    content: '✖Minimum 10 characters!';
+    color: orange;
+    padding-left: 10px;
+    
+}
+
+
+.person{
+    padding-bottom: 15px;
+}
